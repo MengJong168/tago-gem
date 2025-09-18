@@ -553,7 +553,7 @@ def send_to_telegram(transaction):
         f"🌐 Zone ID: {transaction['zone_id']}\n"
         f"🎮 Package: {package_name} (ID: {package_id})\n"
         f"💵 Amount: ${float(transaction['amount']):.2f}\n"
-        f"📅 Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        f"📅 Date: {datetime.now().strftime('%Y-%m-%d %H:%M')}"
     )
     
     try:
